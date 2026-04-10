@@ -23,19 +23,41 @@
 </style> 
   </head>
   <body>
-    <h1>Joshua's portfolio</h1>
+      <header class="site-header">
+      <h1 style="text-align: center;">Joshua's Portfolio</h1>
+    </header>
 
-    <nav aria-label="Main menu">
+    <nav class="nav-bar" aria-label="Main menu">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="labs/html_lab/">HTML Lab</a></li>
-        <li><a href="labs/link_lab/">Link Lab</a></li>
-        <li><a href="reports/">Reports</a></li>
-        <li><a href="pwp/">PWP</a></li>
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link" href="labs/html_lab/">HTML Lab</a></li>
+        <li><a class="nav-link" href="labs/link_lab/">Link Lab</a></li>
+        <li><a class="nav-link" href="reports/">Reports</a></li>
+        <li><a class="nav-link" href="pwp/">PWP</a></li>
+        <li><a class="nav-link" href="style-guide.html">Style Guide</a></li>
       </ul>
     </nav>
 
-    <p>Hi, my name is Joshua. I am a student learning HTML and CSS.</p>
-    
+    <main class="main-content">
+      <h2 class="section-title">About Me</h2>
+
+      <p class="welcome-text" style="color: darkblue;">
+        Hi, my name is Joshua. I am a student learning HTML and CSS.
+      </p>
+
+      <p class="highlight" style="font-weight: bold;">
+        This portfolio will show my work from class this quarter.
+      </p>
+
+      <div class="project-card" style="border: 2px solid navy; padding: 10px;">
+        <h3>Featured Work</h3>
+        <p>Here I will add labs, reports, and other projects from this course.</p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>Created by Joshua</p>
+      <li><a class="nav-link" href="style-guide.html">Style Guide</a></li> 
+    </footer>
   </body>
 </html> 
